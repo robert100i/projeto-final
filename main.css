@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: #E9AE36;
-    color: #1C1C1C;
+    background-color: #f3d5b8;
+    color: #1b1b1b;
     font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: #E9AE36; /* Adicionando uma cor de fundo branca ao cabeçalho para contraste */
+    background-color: #f5a255; /* Adicionando uma cor de fundo branca ao cabeçalho para contraste */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ header {
 
 div h1 {
     margin: 0 0 0 200px;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 
@@ -98,7 +98,7 @@ nav a {
 }
 
 .button-1 {
-    background-color: #fccc6e;
+    background-color: #f5a255;
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -108,12 +108,19 @@ nav a {
 
 .button-1 a {
     text-decoration: none;
-    color: rgb(24, 24, 24);
+    color: #1b1b1b
 }
 
 .image-receita {
     margin-right: 200px;
 }
 
-
+footer {
+    background-color: #f5a255;
+    color: #1b1b1b;
+    padding: 16px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
 
