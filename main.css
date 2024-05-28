@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,6 @@ div h1 {
     margin: 0 0 0 200px;
     font-size: 30px;
 }
-
 
 nav {
     list-style: none;
@@ -59,7 +58,7 @@ nav {
 }
 
 nav a {
-    color: #1C1C1C; 
+    color: #1C1C1C;
     text-decoration: none;
 }
 
@@ -70,6 +69,7 @@ nav a {
 
 .text {
     margin: 0 200px;
+    text-align: left;
 }
 
 .text h2 {
@@ -86,8 +86,8 @@ nav a {
 .receitas h2 {
     margin-left: 200px;
     padding-bottom: 20px;
+    text-align: left;
 }
-
 
 .receita h3 {
     margin-bottom: 20px;
@@ -108,7 +108,7 @@ nav a {
 
 .button-1 a {
     text-decoration: none;
-    color: #1b1b1b
+    color: #1b1b1b;
 }
 
 .image-receita {
@@ -124,3 +124,130 @@ footer {
     text-align: center;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    div h1, nav {
+        margin: 0 100px;
+    }
+
+    .text {
+        margin: 0 100px;
+        text-align: left;
+    }
+
+    .image-drinks {
+        margin-right: 100px;
+    }
+
+    .receitas h2 {
+        margin-left: 100px;
+        text-align: left;
+    }
+
+    .image-receita {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+
+    div h1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    nav {
+        margin: 0;
+        text-align: center;
+    }
+
+    .menu {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .bg_img {
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .text, .image-drinks {
+        margin: 20px;
+        text-align: left;
+    }
+
+    .image-drinks {
+        width: 100%;
+        height: auto;
+    }
+
+    .receitas h2, .receita {
+        margin: 20px;
+        text-align: left;
+    }
+
+    .image-receita {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg_img {
+        height: auto;
+    }
+
+    .text, .image-drinks {
+        margin: 10px;
+        text-align: left;
+    }
+
+    .receitas h2, .receita {
+        margin: 10px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+
+    div h1 {
+        font-size: 24px;
+    }
+
+    .menu {
+        margin: 5px 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .text {
+        margin: 10px;
+        text-align: left;
+    }
+
+    .image-drinks {
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .receitas h2, .receita {
+        margin: 10px;
+        text-align: left;
+    }
+
+    .button-1 {
+        width: 100%;
+        text-align: center;
+    }
+}
